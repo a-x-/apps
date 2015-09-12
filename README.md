@@ -25,7 +25,7 @@ ls | grep gen | grep -v README
 * [src-installed.list.generator.sh](src-installed.list.generator.sh)
 * [web.list.generator.sh](web.list.generator.sh)
 
-## TODO
+## [TODO](TODO.md)
 * добавить плагины sublime
 
 ----
