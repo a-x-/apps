@@ -37,6 +37,8 @@ See also:
 
 ## [TODO](TODO.md)
 * Add sublime plugins
+* Add gems
+* Add pips
 
 ----
 _Genarated by `README.md.genarator.sh`_
