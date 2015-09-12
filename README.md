@@ -1,9 +1,9 @@
 # apps
 
-## Установить всё
+## Install all
 [./install-all.sh](./install-all.sh)
 
-## Списки приложений
+## Lists of apps
 ```sh
 ls | grep 'list$' | grep -v src
 ```
@@ -13,7 +13,7 @@ ls | grep 'list$' | grep -v src
 * [npm.list](npm.list)
 * [web.list](web.list)
 
-## Генераторы списков
+## Generators of lists
 ```sh
 ls | grep gen | grep -v README
 ```
