@@ -1,4 +1,6 @@
-# apps
+name.list.genarator.sh — producer of ready list
+name.list.generation.* — instruction or producet of instruction for generation list manually
+src-* — just source list for generators
 
 ## Install all
 [./install-all.sh](./install-all.sh)
@@ -18,6 +20,7 @@ ls | grep 'list$' | grep -v src
 ls | grep gen | grep -v README
 ```
 * [appstore.list.generation.txt](appstore.list.generation.txt)
+* [brew-cask.list.from.web.list.generation.sh](brew-cask.list.from.web.list.generation.sh)
 * [brew-cask.list.generator.sh](brew-cask.list.generator.sh)
 * [brew.list.generator.sh](brew.list.generator.sh)
 * [npm.list.generator.sh](npm.list.generator.sh)

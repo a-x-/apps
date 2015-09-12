@@ -4,9 +4,9 @@ output=
 
 to_links="| gsed -r 's/(.+)/* [\1](\1)/'"
 
-output="$(cat <<DOC
-# apps
+output+="$(cat ABOUT.md)"
 
+output+="\n\n$(cat <<DOC
 ## Install all
 [./install-all.sh](./install-all.sh)
 DOC)"
