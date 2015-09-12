@@ -1,33 +1,42 @@
 brew-cask
-cabal-install
-colordiff
-dnsmasq
-fasd
+
+# languages
 ghc
-git
-gnu-getopt
-gnu-sed
-heroku-toolbelt
-htop-osx
-httpie
-hub
-imagemagick
-lynx
+cabal-install
+python3
 node
 nvm
-openssl
-pcre
-pkg-config
-python3
-ssh-copy-id
-tcpflow
-the_silver_searcher
-thefuck
-tidy-html5
+
+# special utils
+the_silver_searcher # ag
+thefuck # fuck
+fasd    # fast jumpers: z, v
+httpie  # humen friendly wget
+hub     # git wrapper for github
+
+# standart utils
 tmux
 tree
 vim
 wget
+gnu-getopt
+gnu-sed
+ssh-copy-id
+
 zsh
 zsh-completions
 bash-completion
+git
+
+# misc
+colordiff
+dnsmasq
+heroku-toolbelt
+htop-osx
+imagemagick
+lynx
+openssl
+pcre
+pkg-config
+tcpflow
+tidy-html5

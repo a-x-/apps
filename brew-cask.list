@@ -1,3 +1,4 @@
+# browsers
 opera
 yandex
 yandex-beta
@@ -5,6 +6,7 @@ google-chrome
 google-chrome-canary
 firefox
 
+# main
 iterm2
 iterm2-beta
 spectacle
@@ -18,16 +20,17 @@ evernote
 yandexdisk
 skype
 
+# misc
 brain-workshop
 vienna
 transmission
 vlc
 gimp
 
-# Ставить ли?
+# ignored
 #  free-ruler
 #  xmind
 
-# ставить яндексовые патченные
+# ignored in flavor Yandex's internals
 #  tunnelblick
 #  jing
