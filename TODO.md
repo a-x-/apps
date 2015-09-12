@@ -1,3 +1,3 @@
 ## [TODO](TODO.md)
-* добавить плагины sublime
+* Add sublime plugins
 

@@ -31,7 +31,7 @@ See also:
 * [nerevar/dotfiles/osx](https://github.yandex-team.ru/nerevar/dotfiles/tree/master/osx)
 
 ## [TODO](TODO.md)
-* добавить плагины sublime
+* Add sublime plugins
 
 ----
 _Genarated by `README.md.genarator.sh`_
