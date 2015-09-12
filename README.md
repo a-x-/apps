@@ -25,6 +25,11 @@ ls | grep gen | grep -v README
 * [src-installed.list.generator.sh](src-installed.list.generator.sh)
 * [web.list.generator.sh](web.list.generator.sh)
 
+## Alternatives
+
+See also:
+* [nerevar/dotfiles/osx](https://github.yandex-team.ru/nerevar/dotfiles/tree/master/osx)
+
 ## [TODO](TODO.md)
 * добавить плагины sublime
 

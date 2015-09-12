@@ -17,6 +17,8 @@ output+="\n\n## Списки приложений\n\`\`\`sh\n$lists\n\`\`\`\n$(e
 gens="ls | grep gen | grep -v README"
 output+="\n\n## Генераторы списков\n\`\`\`sh\n$gens\n\`\`\`\n$(eval $gens $to_links)"
 
+output+="\n\n$(cat ALTERNATIVES.md)"
+
 output+="\n\n$(cat TODO.md)"
 
 output+="\n\n----\n_Genarated by \`README.md.genarator.sh\`_"
