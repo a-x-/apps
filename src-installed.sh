@@ -1,3 +1,2 @@
 #!/bin/sh
-
-(ls /App*; ls /App*/Util*) | gsed -r 's/\.app$//' > ~/Yandex.Disk.localized/apps/src-installed.list
+(ls /App*; ls /App*/Util*) | sed 's/\.app$//' > src-installed.list
