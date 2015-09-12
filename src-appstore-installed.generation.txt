@@ -1,0 +1,7 @@
+open app store
+go to purchases
+capture screenshot
+go to http://www.free-ocr.com
+get list
+create table
+get apps with [installed | open] labels
