@@ -1,3 +1,0 @@
-go to: https://support.apple.com/kb/PH18738?locale=en_US
-get xpath results (via xpath helper plugin): //*[@id="mchl110b00b7"]/div/div/div[1]/div[*]/div/table/tbody/tr[*]/td[2]/p[1]/span
-
