@@ -5,7 +5,7 @@
 2. TODO Проверить их статусы, Закомиттить, запушистить и перепроверить
 10. save favorites of all browsers
   11. **safari**: (`Cmd-?`, `'export bookmarks'`, `⏎`)
-  12. firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screenshow}](https://yadi.sk/i/pHVE4pVAnBYAm)
+  12. firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screenshot}](https://yadi.sk/i/pHVE4pVAnBYAm)
   13. chrome, chromium, yabro
 14. TODO save tabs of all browsers
 
