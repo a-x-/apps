@@ -34,7 +34,10 @@
 26. поставил yandex.disk с сайта, залогинелся **по памяти** (в brew cask его [не добавить](//st/DISCSW-5623/))
 40. Добавил хоткей для получения ссылки на файл в Яндекс.диске: `Cmd-Alt-Shift-=` [{Скрин}](https://yadi.sk/i/0a0Sxxk6j37GA)
 26. подменил keychain на прежний из бэкапа, ура, теперь все пароли вновь со мной (/Users/invntrm/Library/Keychains)
-28. Сделал параметры (настройки, список плагинов, хоткеи) sublime симлинками из dotfiles
+28. Сделал параметры (настройки, список плагинов, хоткеи) sublime линками из yadisk
+  29. `ln /Users/invntrm/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap ~/Cloud/Настрои<0306>ки/sublime-hokkeys.json`
+  30. `ln /Users/invntrm/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings  ~/Cloud/Настрои<0306>ки/sublime-setings.json`
+  31. `ln /Users/invntrm/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings  ~/Cloud/Настрои<0306>ки/sublime-packages.json`
 32. импортировал закладки в safari и firefox
 34. включил отображение даты в "часах".
 35. Настроил finder:
