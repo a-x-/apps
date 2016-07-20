@@ -64,6 +64,7 @@
 46. Настроил Safari
   47. Чтобы отлаживать safari на mac, ipad, iphone, включил инструменты разработчика [{Скрин}](https://yadi.sk/i/BoBP-bzmj5n34)
 48. Выключить антиалиасинг (General -> [ ] Use LCD Font smoothing)
+49. Установить imagemagic с правильным svg: `brew install imagemagick --with-librsvg`
 
 _TBD_
 
