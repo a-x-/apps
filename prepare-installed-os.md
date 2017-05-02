@@ -25,6 +25,7 @@
   3. поменял поиск по-умолчанию на текущую директорию
   4. поменял директорию по умолчанию на `~`
 48. Выключить антиалиасинг (General -> [ ] Use LCD Font smoothing)
+49. [change screenshot directory](https://gist.github.com/a-x-/6a14f9522a8295d6c25abb008ac66d50)
 
 ## 2. login with apple id **REMEMBER PASSWORD**
 
