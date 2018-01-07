@@ -10,5 +10,7 @@
 14. save tabs of all browsers
 15. сохранить настройки webstorm, iterm и др. (как?)
 100. посохранять ~~тысячи~~ файлы в sublime.
+101. сохранить настройки vs code
+   - `"~/Library/Application Support/Code/User/keybindings.json"`
 999. убедиться что разные облачные хранилища просинкались (у меня: яндекс.диск, icloud notes, reminders, calendar, evernote)
 100500. _TBD_
