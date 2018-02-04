@@ -2,19 +2,19 @@
 
 ## 1. setup system
 
-1. настроил монитор: мельче [{скрин}](https://yadi.sk/i/TmxHJLifj2ppW)
-2. настроил язык интерфейса: англ [{скрин}](https://yadi.sk/i/WhMZXFNYj2ptT)
-3. настроил часовой пояс [{скрин}](https://yadi.sk/i/NlCrpsQaj2q5J)
+1. настроил монитор: мельче [{скрин}](https://yadi.sk/i/bNpoXBxt3S5Gkq)
+2. настроил язык интерфейса: англ [{скрин}](https://yadi.sk/i/zx1JRutv3S5Gmp)
+3. настроил часовой пояс [{скрин}](https://yadi.sk/i/m3geA1yo3S5GnC)
 5. поставил некоторые плагины к sublime: **TODO**: добавить ссылки на файлы в репо
-6. настроил клик по тапу[{скрин}](https://yadi.sk/i/diC3OvNCj36nM)
+6. настроил клик по тапу[{скрин}](https://yadi.sk/i/q3N1rnpm3S5Gnm)
 7. убрал иконки в меню-баре: alfred, spectacle, timem-machine, [spotlight](http://bit.ly/1OhUkeC)
    (`sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search && killall SystemUIServer`)
 7. ["отключил" так же хоткей spotlight](https://yadi.sk/i/AcdJEyzNj36xN), и поставил хоткей alfred (замена spotlight): `Alt-Space`
 7. включил отображение даты и процента заряда
-9. выключил корректировку набора и корректировку кавычек [{скрин}](https://yadi.sk/i/RCTKs9FJj37Ei)
-11. настроил быстрое повторение зажатой клавиши [{скрин}](https://yadi.sk/i/B7MmIA7Hj37ix)
-10. выставил достижимость табом всех контролов [{скрин}](https://yadi.sk/i/IAioGJ_9j37iA)
-12. настроил сохранение открытых окон приложений (чтобы сохранялась сессия в iterm) [{скрин}](https://yadi.sk/i/wUncDXJkqzLzU)
+9. выключил корректировку набора и корректировку кавычек [{скрин}](https://yadi.sk/i/UAWynEU_3S5GtJ)
+11. настроил быстрое повторение зажатой клавиши [{скрин}](https://yadi.sk/i/UZuseCDe3S5Gu3)
+10. выставил достижимость табом всех контролов [{скрин}](https://yadi.sk/i/qePZ1XxD3S5Guf)
+12. настроил сохранение открытых окон приложений (чтобы сохранялась сессия в iterm) [{скрин}](https://yadi.sk/i/5rCOe9Vq3S5H7T)
 15. (optional) поменял действие fn на противоположное [{инструкция}](http://bit.ly/1NkgP1q)
 23. [отключил](http://bit.ly/1JZy7Ph) `^↑` `^↓`, чтобы не было конфликта с sublime
 1. Тачпад: включил жест app expose
@@ -51,7 +51,6 @@
 ## 7. setup soft
 
 7. restore alfred settings sync
-40. Добавил хоткей для получения ссылки на файл в Яндекс.диске: `Cmd-Alt-Shift-=` [{Скрин}](https://yadi.sk/i/0a0Sxxk6j37GA)
 14. активировал лицензию webstorm. [см. подробнее](https://nda.ya.ru/3QxXtH)
 15. восстановить прежние настройки webstorm (как?)
 18. установил некоторые ранее установленные приложения из app store (вкладка "купленные", понажимать [install])
@@ -76,7 +75,7 @@
         50. Restart ff
   2. Добавил плагин [Copy Link Text](https://addons.mozilla.org/ru/firefox/addon/copy-link-text-4750/) чтобы хоть как-то копировать текст ссылок (очень частый кейс).
 46. Настроил Safari
-  47. Чтобы отлаживать safari на mac, ipad, iphone, включил инструменты разработчика [{Скрин}](https://yadi.sk/i/BoBP-bzmj5n34)
+  47. Чтобы отлаживать safari на mac, ipad, iphone, включил инструменты разработчика [{Скрин}](https://yadi.sk/i/69dKCzIw3S5HCC)
 50. setup iterm
   1. [`alt+left/right`](https://apple.stackexchange.com/a/218639)
 
