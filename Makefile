@@ -11,7 +11,7 @@ update-readme:
 	git stash save -q update 2>/dev/null
 	git pull --rebase
 	$(call git_pop_stash_by_name,update)
-	./README.md.genarator.sh
+	./README.md.generator.sh
 	git add --all
 	git commit -am 'Update README.md'
 	git push
