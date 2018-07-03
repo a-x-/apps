@@ -34,6 +34,5 @@
     - projects
     - garageband
     - ...
-1. Sketchapp.sh
 
 100500. _TBD_
