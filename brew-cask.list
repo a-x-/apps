@@ -1,15 +1,31 @@
-# browsers
+# Browsers
 google-chrome
 google-chrome-canary
+safari-technology-preview
 
-# main
+# Main
+notion
+visual-studio-code
+alfred
 iterm2
-spectacle
+hyper # electron based terminal
+spectacle # window manager
 sublime-text
 sketch
-skype
 
-# misc
+# Chats
+telegram
+skype
+slack
+
+# Utils
+imageoptim
+ngrok
+robomongo
+
+
+# Misc
+sequel-pro
 
 # ignored
 #  free-ruler
