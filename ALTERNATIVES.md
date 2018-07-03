@@ -1,4 +1,4 @@
 ## Alternatives
 
 See also:
-* [nerevar/dotfiles/osx](https://github.yandex-team.ru/nerevar/dotfiles/tree/master/osx)
+* [tenorok/dotfiles](https://github.com/tenorok/dotfiles) — basic MacOS&Dotfiles Setup
