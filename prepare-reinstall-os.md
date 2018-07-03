@@ -1,4 +1,4 @@
-# Подготовка системы к переустановке или апгрейду
+# Prepare macOS for reinstallation/upgrade
 
 1. Order the browsers' tabs clutter: save as bookmarks, close, etc.
 1. Sync or Backup Apps Settings, Plugins and things around
@@ -22,7 +22,6 @@
 1. Find all of git-repose
     `find . -type d -name .git | sed '/dotfiles\/\.vim\/bundle/d; /\.cache\/mm-interfaces/d'`
     - Check statuses, add/sync remote repos, push all of them, recheck
-
 1. Sketchapp.sh
 
 100500. _TBD_
