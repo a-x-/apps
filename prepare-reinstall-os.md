@@ -13,7 +13,7 @@
             - check sync settings
             - update plugin list (run ./vscode.list.generator.sh; [vscode cli doc](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management))
         - Hyper Terminal
-            {Documents/Preferences/Hyper → ~}{.hyper.js, .hyper_plugins.js}
+            `{ Documents/Preferences/HyperTerm → ~ }{ .hyper.js, .hyper_plugins.js }`
         - iTerm
             - check settings sync is up-to-date
             - check tmux integration and scripts
