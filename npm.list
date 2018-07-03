@@ -8,3 +8,11 @@ replace
 static-server
 svgo
 xpath-stream
+coffee-ast-walk
+coffeescript
+create-npm-pkg
+dependency-tree
+esformatter
+json-diff
+yo
+yarn
