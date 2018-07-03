@@ -24,7 +24,8 @@ git clone git@github.com:a-x-/apps.git ~/xp/apps
 cat ~/xp/apps/brew.list       | sed -E $IGNORE_COMMENTS | xargs brew install
 cat ~/xp/apps/brew-cask.list  | sed -E $IGNORE_COMMENTS | xargs brew cask install
 cat ~/xp/apps/npm.list        | sed -E $IGNORE_COMMENTS | xargs npm -g install
-cat ~/xp/apps/vscode.list     | sed -E $IGNORE_COMMENTS | xargs code --install-extension
+# ext install ...
+cat ~/xp/apps/vscode.list     | sed -E $IGNORE_COMMENTS | while read f; do code --install-extension $f; done
 
 echo "\nbrew, brew-cask, npm, vscode apps and plugins had installed"
 echo "\nGo to app store and download purchased earlier apps"
