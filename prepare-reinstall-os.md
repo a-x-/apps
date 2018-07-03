@@ -9,10 +9,12 @@
   13. chrome, chromium, yabro
 1. Разобрать вкладки браузеров, сохранить в закладки
 1. засинкать/сохранить настройки VS Code ~~webstorm~~, iTerm, Alfred и др. (как?)
-    - сохранить настройки vs code
-      `"~/Library/Application Support/Code/User/keybindings.json"`
-
-1. посохранять несохранённые файлы (в sublime).
+    - VS Code
+        - backup settings `"~/Library/Application Support/Code/User/keybindings.json"`
+   - Alfred
+        - sync settings
+        - backup plugins
+1. Check and save unsaved files (sublime,,,).
 1. убедиться что разные облачные хранилища просинкались (у меня: яндекс.диск, icloud notes, reminders, calendar, evernote)
 
 1. Sketchapp.sh
