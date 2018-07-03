@@ -208,6 +208,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
       iCloud Drive, `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`
     - restore Alfred sync [{screen}](https://yadi.sk/i/E0SYuDKt3YiicL)
     - restore iTerm sync [{screen}](https://yadi.sk/i/o1XFs29X3YiiU7)
+    - restore Hyper sync: `ln -s ~/Documents/Preferences/HyperTerm/.hyper.js ~`
 1. iTerm
     - [`alt+left/right`](https://apple.stackexchange.com/a/218639)
 1. Chrome, Safari
