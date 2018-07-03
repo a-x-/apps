@@ -1,23 +1,28 @@
 # Подготовка системы к переустановке или апгрейду
 
-1. Найти все git-репозитории
-   `find . -type d -name .git | sed '/dotfiles\/\.vim\/bundle/d; /\.cache\/mm-interfaces/d'`
-1. TODO Проверить их статусы, Закомиттить, запушистить и перепроверить
-1. save favorites of all browsers
-  11. **safari**: (`Cmd-?`, `'export bookmarks'`, `⏎`)
-  12. firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screenshot}](https://yadi.sk/i/pHVE4pVAnBYAm)
-  13. chrome, chromium, yabro
-1. Разобрать вкладки браузеров, сохранить в закладки
-1. засинкать/сохранить настройки VS Code ~~webstorm~~, iTerm, Alfred и др. (как?)
+1. Order the browsers' tabs clutter: save as bookmarks, close, etc.
+1. Sync or Backup Apps Settings, Plugins and things around
+    - backup or sync bookmarks (favorites)
+        - Safari: (`Cmd-?`, `'export bookmarks'`, `⏎`)
+        - Firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screen}](https://yadi.sk/i/pHVE4pVAnBYAm)
+        - Chrome:
     - VS Code
-        - backup settings `"~/Library/Application Support/Code/User/keybindings.json"`
+        - backup or sync settings `"~/Library/Application Support/Code/User/keybindings.json"`
     - Alfred
         - sync settings
-        - backup plugins
+        - backup or sync plugins
     - Hyper Terminal
+    - iTerm
+        - check settings sync is up-to-date
+        - check tmux integration and scripts
     - _Check all of apps settings_
 1. Check and save unsaved files (sublime,,,).
-1. убедиться что разные облачные хранилища просинкались (у меня: яндекс.диск, icloud notes, reminders, calendar, evernote)
+1. Check Cloud apps and storages are up-to-date
+    - iCloud notes, reminders, calendar and etc.
+1. Find all of git-repose
+    `find . -type d -name .git | sed '/dotfiles\/\.vim\/bundle/d; /\.cache\/mm-interfaces/d'`
+    - Check statuses, add/sync remote repos, push all of them, recheck
+
 1. Sketchapp.sh
 
 100500. _TBD_
