@@ -205,7 +205,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 1. **Alfred**: install, restore license, restore settings sync
 1. **VS Code**, Aldref, iTerm (iCloud Drive: Documents/Preferences)
     - Sync VS Code Settings and Plugins
-      iCloud Drive, `ln -s ~/Documents/Preferences/VSCode "~/Library/Application Support/Code/User/"`
+      iCloud Drive, `ln -s ~/Documents/Preferences/VSCode ~/Library/Application\ Support/Code/User`
     - restore Alfred sync [{screen}](https://yadi.sk/i/E0SYuDKt3YiicL)
     - restore iTerm sync [{screen}](https://yadi.sk/i/o1XFs29X3YiiU7)
 1. iTerm
