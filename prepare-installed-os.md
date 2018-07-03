@@ -107,7 +107,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 > Thanks to [paulirish/dotfiles/.osx](https://github.com/paulirish/dotfiles/blob/master/.osx)
 
-</details>
+</details><br/>
 
 1. System Language: `english`
 1. Intetnet Accounts
@@ -123,6 +123,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - new tab,
     - remove history manually
     - enable status bar
+1. Force iCloud drive download shared apps' preferences
 1. Keyboard
     - language layout: en+ru [{screen}](https://yadi.sk/i/zx1JRutv3S5Gmp)
     - Disable smart quotes&dashes as they’re annoying when typing code  [{screen}](https://yadi.sk/i/UAWynEU_3S5GtJ)
