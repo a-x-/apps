@@ -1,36 +1,18 @@
 # browsers
-opera
-yandex
-yandex-beta
 google-chrome
 google-chrome-canary
-firefox
 
 # main
 iterm2
-iterm2-beta
 spectacle
-webstorm
 sublime-text
 sketch
-screenhero
-pomotodo
-adium
-evernote
-yandexdisk
 skype
 
 # misc
-brain-workshop
-vienna
-transmission
-vlc
-gimp
 
 # ignored
 #  free-ruler
 #  xmind
-
-# ignored in flavor Yandex's internals
-#  tunnelblick
 #  jing
+#  screenhero
