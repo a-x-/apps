@@ -7,11 +7,13 @@ brew tap caskroom/versions
 # todo: dotfiles, zsh
 
 # install node and npm
+cd
 curl -L https://git.io/n-install > install-n
 chmod a+x install-n
 ./install-n -y
-. ~/.bashrc
-. ~/.bash_profile
+. .bashrc
+. .bash_profile
+rm install-n # clean up
 npm i -g npm
 
 IGNORE_COMMENTS='s/#.+//'
