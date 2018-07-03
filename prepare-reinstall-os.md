@@ -7,7 +7,7 @@
         - Firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screen}](https://yadi.sk/i/pHVE4pVAnBYAm)
         - Chrome
     - VS Code
-        - backup or sync settings `"~/Library/Application Support/Code/User/"`
+        - check sync settings `"~/Library/Application Support/Code/User/"`
     - Alfred
         - sync settings
         - backup or sync plugins
