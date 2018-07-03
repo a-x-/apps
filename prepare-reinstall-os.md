@@ -34,5 +34,7 @@
     - projects
     - garageband
     - ...
+1. Backup paid software licenses
+    - Alfred Powerpack
 
 100500. _TBD_
