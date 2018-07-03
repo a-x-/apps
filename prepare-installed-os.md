@@ -17,16 +17,20 @@
     - remove history manually
 1. Keyboard
     - language layout: en+ru [{screen}](https://yadi.sk/i/zx1JRutv3S5Gmp)
+    - Disable smart quotes&dashes as they’re annoying when typing code  [{screen}](https://yadi.sk/i/UAWynEU_3S5GtJ)
+        ```sh
+        defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+        defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+        ```
     - hotkeys: [{screen}]((https://yadi.sk/i/AcdJEyzNj36xN))
         - <kbd>⌥ Space</kbd>: Alfred (better spotlight)
         - <kbd>⌘ Space</kbd>: Keyboard layout
         - <kbd>^ Space</kbd>: IDE Completion
-    - выключил корректировку набора и корректировку кавычек [{screen}](https://yadi.sk/i/UAWynEU_3S5GtJ)
     - настроил быстрое повторение зажатой клавиши [{screen}](https://yadi.sk/i/UZuseCDe3S5Gu3)
     - выставил достижимость табом всех контролов [{screen}](https://yadi.sk/i/qePZ1XxD3S5Guf)
     - ~~(optional) поменял действие fn на противоположное [{инструкция}](http://bit.ly/1NkgP1q)~~
     - [отключил](http://bit.ly/1JZy7Ph) `^↑` `^↓`, чтобы не было конфликта с sublime
-    - setup control stripe:
+    - setup control stripe
         - insert extra spacers at right
         - add screenshot button
     - remove superfluos service shortcuts
