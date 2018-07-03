@@ -2,12 +2,12 @@
 
 1. Order the browsers' tabs clutter: save as bookmarks, close, etc.
 1. Sync or Backup Apps Settings, Plugins and things around
-    - backup or sync bookmarks (favorites)
-        - Safari: (`Cmd-?`, `'export bookmarks'`, `⏎`)
+    - ~~backup~~, check sync bookmarks (favorites)
+        - ~~Safari: (`Cmd-?`, `'export bookmarks'`, `⏎`)~~
         - Firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screen}](https://yadi.sk/i/pHVE4pVAnBYAm)
-        - Chrome:
+        - Chrome
     - VS Code
-        - backup or sync settings `"~/Library/Application Support/Code/User/keybindings.json"`
+        - backup or sync settings `"~/Library/Application Support/Code/User/"`
     - Alfred
         - sync settings
         - backup or sync plugins
@@ -25,6 +25,7 @@
     find ~ -type d -name .git | sed '/dotfiles\/\.vim\/bundle/d'
     ```
     - Check statuses, add/sync remote repos, push all of them, recheck
+1. Check, backup, sync home directory files off the iCloud Drive
 1. Sketchapp.sh
 
 100500. _TBD_
