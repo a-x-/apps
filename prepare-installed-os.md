@@ -195,7 +195,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 1. Setup Security & Privacy
     - Require password 5 sec after sleep
     - FileValult
-1. Remove everything from the Dock bar
+1. Remove everything (except the Calendar.app) from the Dock bar
 
 ## Install & Setup Applications
 
