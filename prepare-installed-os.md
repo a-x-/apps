@@ -1,11 +1,118 @@
 # Setup New macOS Sierra+ (MBP+TouchBar). Frontend Developer Guide
 
+> Alternatives: [paulirish/dotfiles/.osx](https://github.com/paulirish/dotfiles/blob/master/.osx)
+
+<details><summary>Part of macOS Setup Scripts</summary>
+
+```sh
+# Save screenshots to the desktop
+defaults write com.apple.screencapture location -string "${HOME}/Desktop"
+
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture type -string "png"
+
+# Hide all desktop icons because who need 'em'
+defaults write com.apple.finder CreateDesktop -bool false
+
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Enable subpixel font rendering on non-Apple LCDs
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Finder: show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+
+# Wipe all (default) app icons from the Dock
+# This is only really useful when setting up a new Mac, or if you don’t use
+# the Dock to launch apps.
+#defaults write com.apple.dock persistent-apps -array
+
+# Add iOS Simulator to Launchpad
+sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
+
+
+# Hot corners
+# Possible values:
+#  0: no-op
+#  2: Mission Control
+#  3: Show application windows
+#  4: Desktop
+#  5: Start screen saver
+#  6: Disable screen saver
+#  7: Dashboard
+# 10: Put display to sleep
+# 11: Launchpad
+# 12: Notification Center
+
+# Bottom Right screen corner → Put to sleep
+defaults write com.apple.dock wvous-br-corner -int 10
+defaults write com.apple.dock wvous-br-modifier -int 0
+
+Safari
+
+# Privacy: don’t send search queries to Apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+# Press Tab to highlight each item on a web page
+defaults write com.apple.Safari WebKitTabToLinksPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2TabsToLinks -bool true
+
+# Show the full URL in the address bar (note: this still hides the scheme)
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+
+# Set Safari’s home page to `about:blank` for faster loading
+defaults write com.apple.Safari HomePage -string "about:blank"
+
+
+# Allow hitting the Backspace key to go to the previous page in history
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+
+# Enable Safari’s debug menu
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+
+# Enable the Develop menu and the Web Inspector in Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+
+
+
+Photos.app
+# Prevent Photos from opening automatically when devices are plugged in
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+```
+
+</details>
+
 ## Setup System
 
 1. System Language: `english`
 1. Intetnet Accounts
     - **Apple id** \<\<DON'T FORGET the PASSWORD!\>\> [{screen}](https://yadi.sk/i/d5eq5p5Y3YgeSV)
-      get all (iCloud) files, keychain passwords, etc.
+        - get all (iCloud) files, keychain passwords, etc.
     - etc.
 1. Safari
     - develop menu [{screen}](https://yadi.sk/i/69dKCzIw3S5HCC)
@@ -15,6 +122,7 @@
     - home page,
     - new tab,
     - remove history manually
+    - enable status bar
 1. Keyboard
     - language layout: en+ru [{screen}](https://yadi.sk/i/zx1JRutv3S5Gmp)
     - Disable smart quotes&dashes as they’re annoying when typing code  [{screen}](https://yadi.sk/i/UAWynEU_3S5GtJ)
@@ -22,26 +130,49 @@
         defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
         defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
         ```
-    - hotkeys: [{screen}]((https://yadi.sk/i/AcdJEyzNj36xN))
+    - Disable auto-correct
+        ```sh
+        defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+        ```
+    - Set a blazingly fast keyboard repeat rate [{screen}](https://yadi.sk/i/UZuseCDe3S5Gu3)
+        ```sh
+        defaults write NSGlobalDomain KeyRepeat -int 1
+        defaults write NSGlobalDomain InitialKeyRepeat -int 10
+        ```
+    - Hotkeys: [{screen}]((https://yadi.sk/i/AcdJEyzNj36xN))
         - <kbd>⌥ Space</kbd>: Alfred (better spotlight)
         - <kbd>⌘ Space</kbd>: Keyboard layout
         - <kbd>^ Space</kbd>: IDE Completion
-    - настроил быстрое повторение зажатой клавиши [{screen}](https://yadi.sk/i/UZuseCDe3S5Gu3)
-    - выставил достижимость табом всех контролов [{screen}](https://yadi.sk/i/qePZ1XxD3S5Guf)
+    - Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs) [{screen}](https://yadi.sk/i/qePZ1XxD3S5Guf)
+        ```sh
+        defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+        ```
     - ~~(optional) поменял действие fn на противоположное [{инструкция}](http://bit.ly/1NkgP1q)~~
-    - [отключил](http://bit.ly/1JZy7Ph) `^↑` `^↓`, чтобы не было конфликта с sublime
-    - setup control stripe
+    - [Disable](http://bit.ly/1JZy7Ph) `^↑` `^↓`, чтобы не было конфликта с sublime
+    - Setup Control Stripe (TouchBar)
         - insert extra spacers at right
         - add screenshot button
-    - remove superfluos service shortcuts
-    - characters map (jfyi: <kbd>^⌘ Space</kbd>) [{screen}](https://yadi.sk/i/d5eq5p5Y3YgeSV)
+    - Remove superfluos service shortcuts
+    - Setup Characters map (jfyi: <kbd>^⌘ Space</kbd>) [{screen}](https://yadi.sk/i/d5eq5p5Y3YgeSV)
         - add favorite symbols
         - add symbol lists: Technical
+    - Backlight
+        ```sh
+        # Automatically illuminate built-in MacBook keyboard in low light
+        defaults write com.apple.BezelServices kDim -bool true
+        # Turn off keyboard illumination when computer is not used for 5 minutes
+        defaults write com.apple.BezelServices kDimTime -int 300
+        ```
 1. Displays
     - настроил монитор: мельче [{screen}](https://yadi.sk/i/bNpoXBxt3S5Gkq)
     - (optional) Настроил антиалиасинг (General -> [ ] Use LCD Font smoothing) [Подробности](http://macdaily.me/howto/font-smoothing-in-mac-os-x/)
 1. Trackpad
-    - настроил клик по тапу [{screen}](https://yadi.sk/i/q3N1rnpm3S5Gnm)
+    - Enable tap to click (for this user and for the login screen). [{screen}](https://yadi.sk/i/q3N1rnpm3S5Gnm)
+        ```sh
+        defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+        defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+        defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+        ```
     - Тачпад: включил жест app expose
     - Тачпад: настроил жест (hot corner right-bottom) включения заставки (чтобы быстро "блокировать" компьютер) [{screen}](https://yadi.sk/i/UcSwdANP3YggDC)
 1. Date, Location
@@ -63,7 +194,6 @@
     - Require password 5 sec after sleep
     - FileValult
 1. Remove everything from the Dock bar
-
 
 ## Install & Setup Applications
 
