@@ -20,7 +20,9 @@
 1. Check Cloud apps and storages are up-to-date
     - iCloud notes, reminders, calendar and etc.
 1. Find all of git-repose
-    `find . -type d -name .git | sed '/dotfiles\/\.vim\/bundle/d; /\.cache\/mm-interfaces/d'`
+    ```sh
+    find . -type d -name .git | sed '/dotfiles\/\.vim\/bundle/d; /\.cache\/mm-interfaces/d'
+    ```
     - Check statuses, add/sync remote repos, push all of them, recheck
 1. Sketchapp.sh
 
