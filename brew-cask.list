@@ -21,11 +21,12 @@ slack
 # Utils
 imageoptim
 ngrok
-robomongo
+robomongo # mongodb client
+studio-3t # monbodb client
+sequel-pro # sql db client
 
 
 # Misc
-sequel-pro
 
 # ignored
 #  free-ruler
