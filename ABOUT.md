@@ -1,3 +1,5 @@
+> ... Because a wide-system backups are suxx.
+
 macOS App lists for quick installation and seamless migration
 
 * `name.list.generator.sh` — endpoint app list generators
