@@ -18,6 +18,7 @@
     - _Check all of apps settings_
 1. Check and save unsaved files (sublime,,,).
 1. Check Cloud apps and storages are up-to-date
+    - Check iCloud Drive on Home Dir sync is up-to-date
     - iCloud notes, reminders, calendar and etc.
 1. Find all of git-repos
     ```sh
