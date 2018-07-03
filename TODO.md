@@ -1,4 +1,4 @@
-## [TODO](TODO.md)
+## TODO
 * Add sublime plugins
 * Add gems
 * Add pips
