@@ -1,42 +1,63 @@
-brew-cask
-
-# languages
+# Languages
 ghc
 cabal-install
+haskell-stack
 python3
-node
-nvm
 
-# special utils
+# Special utils
 the_silver_searcher # ag
 thefuck # fuck
 fasd    # fast jumpers: z, v
 httpie  # humen friendly wget
 hub     # git wrapper for github
+svgo
+brotli
+webp
+tig
 
-# standart utils
+# Standart utils
 tmux
 tree
 vim
+macvim
 wget
 gnu-getopt
 gnu-sed
 ssh-copy-id
+jq
+htop-osx
+nmap
+git
+rsync
 
+# Shell
 zsh
 zsh-completions
+zsh-syntax-highlighting
 bash-completion
-git
 
-# misc
+# Misc
 colordiff
-dnsmasq
+#dnsmasq
 heroku-toolbelt
-htop-osx
-imagemagick
+#imagemagick
 lynx
 openssl
 pcre
-pkg-config
+#pkg-config
 tcpflow
-tidy-html5
+#tidy-html5
+automake
+cmake
+mongodb
+
+# Deploy, Infra, rocketbank
+ansible
+kubernetes-cli
+consul
+postgresql
+docker
+rabbitmq
+redis
+ruby
+
