@@ -15,6 +15,8 @@
         * touchbar (control stripe) customization
         * more
     * better firewall: littlesnitch
-* Add “Prevent laptop cover close sleep mode“ Shell-command, Alfred-menu, Gui-button
+* coffeine, caffenate: Shell-command, Alfred-menu, Gui-button
+   * Add “Tmp Prevent laptop cover close sleep mode“
+   * Add "Tmp Prevent sleep schedule"
 * describe every configuration motivation
 * search for dotfiles awesome list
