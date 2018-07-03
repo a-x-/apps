@@ -17,3 +17,4 @@
     * better firewall: littlesnitch
 * Add “Prevent laptop cover close sleep mode“ Shell-command, Alfred-menu, Gui-button
 * describe every configuration motivation
+* search for dotfiles awesome list
