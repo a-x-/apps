@@ -26,6 +26,11 @@
     ```
     - Check statuses, add/sync remote repos, push all of them, recheck
 1. Check, backup, sync home directory files off the iCloud Drive
+    - dotfiles
+    - photobooth
+    - downloads
+    - projects
+    - garageband
 1. Sketchapp.sh
 
 100500. _TBD_
