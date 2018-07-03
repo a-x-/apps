@@ -23,6 +23,7 @@ ls | grep 'list$' | grep -v src
 * [brew-cask.list](brew-cask.list)
 * [brew.list](brew.list)
 * [npm.list](npm.list)
+* [vscode.list](vscode.list)
 * [web.list](web.list)
 
 ## Generators of lists
@@ -36,6 +37,7 @@ ls | grep gen | grep -v README
 * [npm.list.generator.sh](npm.list.generator.sh)
 * [src-builtin.list.generation.txt](src-builtin.list.generation.txt)
 * [src-installed.list.generator.sh](src-installed.list.generator.sh)
+* [vscode.list.generator.sh](vscode.list.generator.sh)
 * [web.list.generator.sh](web.list.generator.sh)
 
 ## Alternatives
@@ -61,7 +63,9 @@ Dotfiles and automation:
         * touchbar (control stripe) customization
         * more
     * better firewall: littlesnitch
-* Add “Prevent laptop cover close sleep mode“ Shell-command, Alfred-menu, Gui-button
+* coffeine, caffenate: Shell-command, Alfred-menu, Gui-button
+   * Add “Tmp Prevent laptop cover close sleep mode“
+   * Add "Tmp Prevent sleep schedule"
 * describe every configuration motivation
 * search for dotfiles awesome list
 
