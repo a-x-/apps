@@ -21,8 +21,7 @@ slack
 # Utils
 imageoptim
 ngrok
-robomongo # mongodb client
-studio-3t # monbodb client
+studio-3t # monbodb client (robomongo declined)
 sequel-pro # sql db client
 
 
