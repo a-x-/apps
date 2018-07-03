@@ -11,12 +11,13 @@
 1. засинкать/сохранить настройки VS Code ~~webstorm~~, iTerm, Alfred и др. (как?)
     - VS Code
         - backup settings `"~/Library/Application Support/Code/User/keybindings.json"`
-   - Alfred
+    - Alfred
         - sync settings
         - backup plugins
+    - Hyper Terminal
+    - _Check all of apps settings_
 1. Check and save unsaved files (sublime,,,).
 1. убедиться что разные облачные хранилища просинкались (у меня: яндекс.диск, icloud notes, reminders, calendar, evernote)
-
 1. Sketchapp.sh
 
 100500. _TBD_
