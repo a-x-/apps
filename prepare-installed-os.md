@@ -1,6 +1,6 @@
 # Setup New macOS Sierra+ (MBP+TouchBar). Frontend Developer Guide
 
-> Alternatives: [paulirish/dotfiles/.osx](https://github.com/paulirish/dotfiles/blob/master/.osx)
+## Setup System
 
 <details><summary>Part of macOS Setup Scripts</summary>
 
@@ -105,9 +105,9 @@ Photos.app
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 ```
 
-</details>
+> Thanks to [paulirish/dotfiles/.osx](https://github.com/paulirish/dotfiles/blob/master/.osx)
 
-## Setup System
+</details>
 
 1. System Language: `english`
 1. Intetnet Accounts
@@ -164,8 +164,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
         defaults write com.apple.BezelServices kDimTime -int 300
         ```
 1. Displays
-    - настроил монитор: мельче [{screen}](https://yadi.sk/i/bNpoXBxt3S5Gkq)
-    - (optional) Настроил антиалиасинг (General -> [ ] Use LCD Font smoothing) [Подробности](http://macdaily.me/howto/font-smoothing-in-mac-os-x/)
+    - more space, small pixels [{screen}](https://yadi.sk/i/bNpoXBxt3S5Gkq)
+    - (optional) Setup antialiasing (General -> [ ] Use LCD Font smoothing) [Read more (ru)](http://macdaily.me/howto/font-smoothing-in-mac-os-x/)
 1. Trackpad
     - Enable tap to click (for this user and for the login screen). [{screen}](https://yadi.sk/i/q3N1rnpm3S5Gnm)
         ```sh
@@ -175,16 +175,16 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
         ```
     - Тачпад: включил жест app expose
     - Тачпад: настроил жест (hot corner right-bottom) включения заставки (чтобы быстро "блокировать" компьютер) [{screen}](https://yadi.sk/i/UcSwdANP3YggDC)
-1. Date, Location
+1. Status Menus: Date, Location, etc.
     - ~~настроил часовой пояс [{screen}](https://yadi.sk/i/m3geA1yo3S5GnC)~~
-    - (optional) включил отображение даты и процента заряда
-1. (optional) hide : alfred, spectacle, timem-machine, [spotlight](http://bit.ly/1OhUkeC)
-   (`sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search && killall SystemUIServer`)
+    - (optional) show date, time and charge percentage
+    - (optional) hide: alfred, spectacle, timem-machine, [spotlight](http://bit.ly/1OhUkeC)
+        (`sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search && killall SystemUIServer`)
 1. Sound
     - show volume in menu bar
 1. General
     - keep opened windows (unlock the iTerm session restoration feature) [{screen}](https://yadi.sk/i/5rCOe9Vq3S5H7T)
-1. Настроил finder: [{screen}](https://yadi.sk/i/3GwnQnl63Ygnv2)
+1. Finder: [{screen}](https://yadi.sk/i/3GwnQnl63Ygnv2)
     - убрал all my files, добавил: pics, music, home
     - убрал предупреждение о смене расширений
     - поменял поиск по-умолчанию на текущую директорию
@@ -206,7 +206,6 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
     - подключил расширенный каталог (с бетами и пр.) для brew cask: `brew tap caskroom/versions`
 1. Batch install all of brew, brew cask, npm, app store apps and pkgs ([a-x-/apps automation](https://github.com/a-x-/apps))
-1. ~~(optional) поставил yandex.disk с сайта, залогинелся **по памяти** (в brew cask его [не добавить](//st/DISCSW-5623/))~~
 1. **Dotfiles**: clone git repo and setup ([a-x-/.files](https://github.com/a-x-/.files))
     - Install & Setup ZSH Shell, configs, completions, plugins
     - Generate new GPG and SSH keys, update everywhere
@@ -251,6 +250,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - `ln /Users/invntrm/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap ~/Cloud/Настрои<0306>ки/sublime-hokkeys.json`
     - `ln /Users/invntrm/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings  ~/Cloud/Настрои<0306>ки/sublime-setings.json`
     - `ln /Users/invntrm/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings  ~/Cloud/Настрои<0306>ки/sublime-packages.json`
+1. install yandex.disk from the web site, login (it's [brew cask incompatible](//st/DISCSW-5623/))
 
 </details>
 
