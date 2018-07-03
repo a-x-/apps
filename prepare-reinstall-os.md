@@ -34,7 +34,7 @@
     - projects
     - garageband
     - ...
-1. Backup paid software licenses
-    - Alfred Powerpack
+1. Check paid software licenses backup
+    - Alfred Powerpack (search gmail for “Alfred Powerpack License“)
 
 100500. _TBD_
