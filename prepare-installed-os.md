@@ -173,8 +173,9 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
         defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
         defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
         ```
-    - Тачпад: включил жест app expose
-    - Тачпад: настроил жест (hot corner right-bottom) включения заставки (чтобы быстро "блокировать" компьютер) [{screen}](https://yadi.sk/i/UcSwdANP3YggDC)
+    - enable app expose
+    - screensaver hot corner right-bottom) (easy lock the laptop) [{screen}](https://yadi.sk/i/UcSwdANP3YggDC)
+    - **keep** macOS default scroll direction
 1. Status Menus: Date, Location, etc.
     - ~~настроил часовой пояс [{screen}](https://yadi.sk/i/m3geA1yo3S5GnC)~~
     - (optional) show date, time and charge percentage
