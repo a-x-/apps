@@ -202,15 +202,23 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 1. **Dotfiles**: clone git repo and setup ([a-x-/.files](https://github.com/a-x-/.files))
     - Install & Setup ZSH Shell, configs, completions, plugins
     - Generate new GPG and SSH keys, update everywhere
-1. **Alfred**: install, restore license, restore settings sync
-1. **VS Code**, Aldref, iTerm (iCloud Drive: Documents/Preferences)
-    - Sync VS Code Settings and Plugins
-      iCloud Drive, `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`
-    - restore Alfred sync [{screen}](https://yadi.sk/i/E0SYuDKt3YiicL)
-    - restore iTerm sync [{screen}](https://yadi.sk/i/o1XFs29X3YiiU7)
+1. iCloud Drive based settings sync (`Documents/Preferences`)
+    - VS Code
+        - Sync Settings: `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`
+        - *plugins should be installed earlier*
+    - Alfred
+        - restore settyngs sync [{screen}](https://yadi.sk/i/E0SYuDKt3YiicL), 
+        - restore license (from the mail inbox), 
+        - setup [some manual settings](https://www.alfredapp.com/help/advanced/sync/#not-synced)
+    - iTerm: restore sync [{screen}](https://yadi.sk/i/o1XFs29X3YiiU7)
         - [`alt+left/right`](https://apple.stackexchange.com/a/218639)
-        - triggers: on build,,,
-    - restore Hyper sync: `ln -s ~/Documents/Preferences/HyperTerm/.hyper.js ~`
+        - triggers: on build
+        - etc.
+    - Hyper: restore sync
+      ```sh
+      ln -s ~/Documents/Preferences/HyperTerm/.hyper.js ~
+      ln -s ~/Documents/Preferences/HyperTerm/.hyper_plugins ~
+      ```
 1. Chrome, Safari
     - import bookmarks
 1. Mail.app
