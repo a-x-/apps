@@ -1,2 +1,4 @@
 #!/bin/sh
-brew list > brew.list
+# all top-level brew installs
+# brew list > brew.list
+brew leaves > brew.list
