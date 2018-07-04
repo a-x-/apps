@@ -12,6 +12,11 @@
         - Alfred (
             - check sync settings
             - update plugin list (run ./vscode.list.generator.sh; [vscode cli doc](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management))
+            - backup clipboard history
+              ```sh
+              ~/Library/Application Support/Alfred 3/Databases/clipboard.alfdb*
+              ```
+            - remember some set of settings
         - Hyper Terminal
             `{ Documents/Preferences/HyperTerm → ~ }{ .hyper.js, .hyper_plugins.js }`
         - iTerm
@@ -35,6 +40,6 @@
     - garageband
     - ...
 1. Check paid software licenses backup
-    - Alfred Powerpack (search gmail for “Alfred Powerpack License“ OR look at `/Users/mxtnr/Library/Application\ Support/Alfred\ 3/license.plist`)
+    - Alfred Powerpack (search gmail for “Alfred Powerpack License“ OR look at `~/Library/Application\ Support/Alfred\ 3/license.plist`)
 
 100500. _TBD_
