@@ -1,4 +1,4 @@
-# Setup New macOS Sierra+ (MBP+TouchBar). Frontend Developer Guide
+# Setup New macOS Sierra+ (MBP+TouchBar).<br/>Frontend Developer Guide
 
 ## Setup System
 
