@@ -2,7 +2,7 @@
 
 1. Order the browsers' tabs clutter: save as bookmarks, close, etc.
 1. Sync or Backup Apps Settings, Plugins and things around
-    - ~~backup~~, check sync bookmarks (favorites)
+    - backup, check sync bookmarks (favorites)
         - ~~Safari: (`Cmd-?`, `'export bookmarks'`, `⏎`)~~
         - Firefox: (`Cmd-?`, `'all bookmarks'`, `backup`) [{screen}](https://yadi.sk/i/pHVE4pVAnBYAm)
         - Chrome
@@ -20,7 +20,7 @@
         - Hyper Terminal
             `{ Documents/Preferences/HyperTerm → ~ }{ .hyper.js, .hyper_plugins.js }`
         - iTerm
-            - check settings sync is up-to-date
+            - check settings sync is up-to-date (**press “Save Current Settings to Folder“ button!**) [{screen}](https://user-images.githubusercontent.com/6201068/42291061-14f2ed38-7fd2-11e8-97a6-689aecec1829.png)
             - check tmux integration and scripts
     - _Check all of apps settings_
 1. Check and save unsaved files (sublime,,,).
