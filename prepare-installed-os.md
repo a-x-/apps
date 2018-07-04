@@ -6,7 +6,7 @@
 
 ```sh
 # Set directory for screenshots
-SCREENS_DIR='/Users/mxtnr/Library/Mobile Documents/com~apple~Preview/Documents/Screenshots';
+SCREENS_DIR='~/Library/Mobile Documents/com~apple~Preview/Documents/Screenshots';
 defaults write com.apple.screencapture location $SCREENS_DIR
 killall SystemUIServer
 ln -s $SCREENS_DIR ~/Desktop
