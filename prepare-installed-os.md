@@ -222,6 +222,9 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
       - read/unread (`Cmd-Shift-U`)
 1. Calendar.app: setup...
 1. Install&Setup VPN-Client
+1. Tune [Recess](https://itunes.apple.com/ru/app/recess/id621451282?mt=12) settings
+    - start at login
+    - keep on top (prevent catching the focus)
 
 <details><summary>Optional and obsolete software</summary>
 
