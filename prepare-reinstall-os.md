@@ -38,6 +38,7 @@
     - downloads
     - projects
     - garageband
+    - *.files*: .ssh and etc.
     - ...
 1. Check paid software licenses backup
     - Alfred Powerpack (search gmail for “Alfred Powerpack License“ OR look at `~/Library/Application\ Support/Alfred\ 3/license.plist`)
