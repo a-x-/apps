@@ -18,7 +18,8 @@ WallabyJs.quokka-vscode # awesome https://quokkajs.com
 Orta.vscode-jest
 dbaeumer.vscode-eslint
 ricard.postcss
-HookyQR.JSDocTagComplete
+#HookyQR.JSDocTagComplete
+joelday.docthis # jsdoc generator
 
 # Deploy, Infra, Rocket
 PeterJausovec.vscode-docker
