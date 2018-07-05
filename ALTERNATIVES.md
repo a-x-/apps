@@ -1,6 +1,7 @@
 ## Alternatives
 
 Automation:
+* [macOS-Defaults](https://github.com/kevinSuttle/macOS-Defaults) ⭑ 522 — all of macOS setup scripts and manuals
 * [paulirish/dotfiles](https://github.com/paulirish/dotfiles) ⭑ 3 143 — automated opinionate MacOS&Dotfiles Setup
   * [bins](https://github.com/paulirish/dotfiles/tree/master/bin): git-delete-squashed-and-merged-branches
 * [AkkeyLab/mac-auto-setup](https://github.com/AkkeyLab/mac-auto-setup) ⭑ 14 — well automation, updating, well structurized
@@ -8,6 +9,7 @@ Automation:
 * [jasonbarone/dotfiles](https://github.com/jasonbarone/dotfiles) ⭑ 32
 
 Dotfiles:
+* [awesome dotfiles](https://project-awesome.org/webpro/awesome-dotfiles)
 * [tenorok/dotfiles](https://github.com/tenorok/dotfiles) — basic MacOS&Dotfiles Setup
 * [necolas/dotfiles](https://github.com/necolas/dotfiles) ⭑ 632
 * [a-x-/.files](https://github.com/a-x-/.files)
