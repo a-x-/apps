@@ -6,20 +6,25 @@ haskell-stack
 python3
 #nodejs -- should be installed via tj/n
 
-# Special utils
+# Special Utils
 
-the_silver_searcher # ag
+the_silver_searcher # ag is a faster grep alternative
+ripgrep # rg is a faster ag/grep alternative
 thefuck # fuck
 fasd    # fast jumpers: z, v
-httpie  # humen friendly wget
+httpie  # human friendly wget/curl
 hub     # git wrapper for github
-svgo
-brotli
-webp
-tig
-jq
+svgo    # svg optimiser
+brotli  # compression
+webp    # new pic format
+tig     # git interactive cli
+jq      # json query cli
 
-# Standart utils
+# New Special Utils
+
+borg # search the shell snippets
+
+# Standart Utils
 
 tmux
 tree
@@ -62,7 +67,6 @@ cmake
 #ansible -- must be installed via system pip
 kubernetes-cli
 kubectl
-awscli
 consul
 postgresql
 docker
