@@ -52,7 +52,7 @@ cmake
 mongodb
 
 # Deploy, Infra, Rocketbank
-ansible
+# ansible -- must be installed via system pip
 kubernetes-cli
 kubectl
 awscli
