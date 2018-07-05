@@ -1,10 +1,13 @@
 # Languages
+
 ghc
 cabal-install
 haskell-stack
 python3
+#nodejs -- should be installed via tj/n
 
 # Special utils
+
 the_silver_searcher # ag
 thefuck # fuck
 fasd    # fast jumpers: z, v
@@ -16,6 +19,7 @@ webp
 tig
 
 # Standart utils
+
 tmux
 tree
 vim
@@ -31,12 +35,14 @@ git
 rsync
 
 # Shell
+
 zsh
 zsh-completions
 zsh-syntax-highlighting
 bash-completion
 
 # Misc
+
 colordiff
 #dnsmasq
 heroku-toolbelt
@@ -51,7 +57,8 @@ automake
 cmake
 
 # Deploy, Infra, Rocketbank
-# ansible -- must be installed via system pip
+
+#ansible -- must be installed via system pip
 kubernetes-cli
 kubectl
 awscli
