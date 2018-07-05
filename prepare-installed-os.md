@@ -203,6 +203,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 1. **Dotfiles**: clone git repo and setup ([a-x-/.files](https://github.com/a-x-/.files))
     - Install & Setup ZSH Shell, configs, completions, plugins
     - Generate new GPG and SSH keys, update everywhere
+        - [Generate GPG manual](gpg --list-secret-keys --keyid-format LONG)
 1. iCloud Drive based settings sync (`Documents/Preferences`)
     - VS Code
         - Sync Settings: `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`
