@@ -171,8 +171,9 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 1. Status Menus: Date, Location, etc.
     - ~~настроил часовой пояс [{screen}](https://yadi.sk/i/m3geA1yo3S5GnC)~~
     - (optional) show date, time and charge percentage
-    - (optional) hide: alfred, spectacle, timem-machine, [spotlight](http://bit.ly/1OhUkeC)
-        (`sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search && killall SystemUIServer`)
+    - (optional) hide: alfred, spectacle, time-machine, [spotlight](http://bit.ly/1OhUkeC)
+        - spotlight: (`sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search && killall SystemUIServer`)
+        - spectacle: [{screen}](https://yadi.sk/i/qtsKJ1u43Yo2Xq)
 1. Sound
     - show volume in menu bar
 1. General
