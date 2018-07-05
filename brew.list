@@ -49,7 +49,6 @@ tcpflow
 #tidy-html5
 automake
 cmake
-mongodb
 
 # Deploy, Infra, Rocketbank
 # ansible -- must be installed via system pip
