@@ -17,6 +17,7 @@ svgo
 brotli
 webp
 tig
+jq
 
 # Standart utils
 
@@ -28,11 +29,11 @@ wget
 gnu-getopt
 gnu-sed
 ssh-copy-id
-jq
 htop-osx
 nmap
 git
 rsync
+gpg
 
 # Shell
 
