@@ -43,5 +43,6 @@
 1. Check paid software licenses backup
     - Alfred Powerpack (search gmail for “Alfred Powerpack License“ OR look at `~/Library/Application\ Support/Alfred\ 3/license.plist`)
 1. Backup user fonts: `/Users/mxtnr/Library/Fonts`
+1. Backup `/etc/hosts`
 
 100500. _TBD_
