@@ -2,6 +2,9 @@
 
 ## Setup System
 
+
+Screenshots: https://ilyabirman.ru/meanwhile/2008/11/09/2/
+
 <details><summary>Part of macOS Setup Scripts</summary>
 
 ```sh
