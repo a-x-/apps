@@ -1,7 +1,7 @@
 > ... Because a wide-system backups are suxx.<br/>
 > Every reinstallation drives env/system settings evolution and refreshes the experience
 
-Minimal sensitive configuration
+Minimal sensible configuration
 
 ## Repo Content
 * `name.list.generator.sh` — endpoint app list generators
