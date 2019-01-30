@@ -117,6 +117,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - new tab,
     - remove history manually
     - enable status bar
+    - add Extensions:
+      * octotree ([unsigned ext installation instruction](https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/))
 1. Force iCloud drive download shared apps' preferences
 1. Keyboard
     - language layout: en+ru [{screen}](https://yadi.sk/i/zx1JRutv3S5Gmp)
