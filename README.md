@@ -1,4 +1,4 @@
-> ... Because a wide-system backups are suxx.<br/>
+> ... Because a wide-system backups are not so cool.<br/>
 > Every reinstallation drives env/system settings evolution and refreshes the experience
 
 Minimal sensible configuration
