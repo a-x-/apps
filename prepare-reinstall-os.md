@@ -8,7 +8,7 @@
         - Chrome
     - iCloud Drive based sync (Documents/Preferences)
         - VS Code
-            - push settings (`~/Documents/Preferences/VSCode/`) to [a-x-/HOME_Documents_Preferences_VSCode](https://github.com/a-x-/HOME_Documents_Preferences_VSCode)
+            - push settings (`"~/Library/Application Support/Code/User/"`) to [a-x-/vscode-configs](https://github.com/a-x-/vscode-configs)
         - Alfred (
             - check sync settings
             - update plugin list (run ./vscode.list.generator.sh; [vscode cli doc](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management))
