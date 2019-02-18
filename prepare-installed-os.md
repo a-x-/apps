@@ -209,10 +209,12 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - Install & Setup ZSH Shell, configs, completions, plugins
     - Generate new GPG and SSH keys, update everywhere
         - [Generate GPG manual](https://help.github.com/articles/generating-a-new-gpg-key/)
-1. iCloud Drive based settings sync (`Documents/Preferences`)
     - VS Code
-        - Sync Settings: `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`
+        - ~~Sync Settings: `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`~~
+        - Setup the git repo [a-x-/vscode-configs] in `"$HOME/Library/Application Support/Code/User/"`
         - *plugins should be installed earlier*
+
+1. iCloud Drive based settings sync (`Documents/Preferences`)
     - Alfred
         - restore settyngs sync [{screen}](https://yadi.sk/i/E0SYuDKt3YiicL), 
         - restore license (from the mail inbox), 
@@ -270,3 +272,6 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 </details>
 
 _TBD_
+
+
+[a-x-/vscode-configs]: https://github.com/a-x-/vscode-configs
