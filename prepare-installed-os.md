@@ -210,7 +210,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - Generate new GPG and SSH keys, update everywhere
         - [Generate GPG manual](https://help.github.com/articles/generating-a-new-gpg-key/)
     - VS Code
-        - ~~Sync Settings: `ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`~~
+        - ~~Sync Settings: `mkdir -p ~/Library/Application\ Support/Code/ && ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`~~
         - Setup the git repo [a-x-/vscode-configs] in `"$HOME/Library/Application Support/Code/User/"`
         - *plugins should be installed earlier*
 
