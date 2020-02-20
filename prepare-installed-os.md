@@ -194,9 +194,6 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - FileValult
 1. Remove everything (except the Calendar.app) from the Dock bar
 
-1. Add fonts
-  `brew tap homebrew/cask-fonts && brew cask install font-fira-code`
-
 ## Install & Setup Applications
 
 1. Command Line Tools `xcode-select --install`
