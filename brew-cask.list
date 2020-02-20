@@ -36,6 +36,7 @@ sublime-merge
 # Misc
 # vlc
 cornercal # better clock with calendar in status bar
+homebrew/cask-fonts/font-fira-code # font with ligatures
 
 #
 # Ignored
