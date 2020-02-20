@@ -1,23 +1,24 @@
 # Languages
 
-ghc
-cabal-install
-haskell-stack
-python3
-#nodejs -- should be installed via tj/n
+# ghc
+# cabal-install
+# haskell-stack
+# python3
+# nodejs -- should be installed via tj/n or asdf
 
 # Special Utils
 
-the_silver_searcher # ag is a faster grep alternative
+# the_silver_searcher # ag is a faster grep alternative
 ripgrep # rg is a faster ag/grep alternative
-thefuck # fuck
+thefuck # fuck: fix last command
 fasd    # fast jumpers: z, v
+asdf    # npm,ruby,,, universal version manager
 httpie  # human friendly wget/curl
 hub     # git wrapper for github
 svgo    # svg optimiser
 brotli  # compression
 webp    # new pic format
-tig     # git interactive cli
+#tig     # git interactive cli
 jq      # json query cli
 
 # New Special Utils
@@ -50,14 +51,15 @@ bash-completion
 # Misc
 
 colordiff
+diff-so-fancy
 #dnsmasq
-heroku-toolbelt
+#heroku-toolbelt
 #imagemagick
 lynx
 openssl
 pcre
 #pkg-config
-tcpflow
+#tcpflow
 #tidy-html5
 automake
 cmake
@@ -67,9 +69,9 @@ cmake
 #ansible -- must be installed via system pip
 kubernetes-cli
 kubectl
-consul
-postgresql
+#consul
+#postgresql
 docker
-rabbitmq
-redis
-ruby
+#rabbitmq
+#redis
+#ruby
