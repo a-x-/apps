@@ -5,7 +5,7 @@
 
 Screenshots: https://ilyabirman.ru/meanwhile/2008/11/09/2/
 
-<details><summary>Part of macOS Setup Scripts</summary>
+<details><summary>1. Bunch of automatic settings (via macOS's defaults utility)</summary>
 
 ```sh
 # Set directory for screenshots
@@ -193,6 +193,9 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - Require password 5 sec after sleep
     - FileValult
 1. Remove everything (except the Calendar.app) from the Dock bar
+
+1. Add fonts
+  `brew tap homebrew/cask-fonts && brew cask install font-fira-code`
 
 ## Install & Setup Applications
 
