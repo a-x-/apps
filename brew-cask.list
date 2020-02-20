@@ -51,4 +51,4 @@ docker
 
 # Arduino
 homebrew/cask-unofficial/wch-ch34x-usb-serial-driver
-arduino
+# arduino
