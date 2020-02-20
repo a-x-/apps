@@ -1,38 +1,54 @@
+#
 # Browsers
 google-chrome
-google-chrome-canary
-safari-technology-preview
+# google-chrome-canary
+# safari-technology-preview
+# firefox
 
+#
 # Main
 notion
 visual-studio-code
-alfred
+homebrew/cask-versions/alfred3
 iterm2
 hyper # electron based terminal
 spectacle # window manager
 sublime-text
 sketch
 
+#
 # Chats
 telegram
 skype
 slack
 
+#
 # Utils
 imageoptim
 ngrok
-studio-3t # monbodb client (robomongo declined)
-sequel-pro # sql db client
+# studio-3t # monbodb client (robomongo declined)
+# sequel-pro # sql db client
+sublime-merge
+# wireshark
+# unshaky # fix bad macOS keyboard
 
-
+#
 # Misc
+# vlc
 
-# ignored
+#
+# Ignored
 #  free-ruler
 #  xmind
 #  jing
 #  screenhero
 
+#
 # Deploy, Infra, Rocketbank
 docker
-postgres
+# postgres
+# now
+
+# Arduino
+homebrew/cask-unofficial/wch-ch34x-usb-serial-driver
+arduino
