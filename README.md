@@ -13,7 +13,7 @@ Minimal sensible configuration
 2. [Tune installed os](https://github.com/a-x-/apps/blob/master/prepare-installed-os.md)
 
 ## Install all
-[./install-all.sh](./install-all.sh)
+https://github.com/a-x-/.files/blob/master/installer.sh
 
 ## Lists of apps
 ```sh
