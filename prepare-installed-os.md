@@ -23,7 +23,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 SCREENS_DIR='~/Library/Mobile Documents/com~apple~Preview/Documents/Screenshots';
 defaults write com.apple.screencapture location $SCREENS_DIR
 killall SystemUIServer
-ln -s $SCREENS_DIR ~/Desktop
+# ln -s $SCREENS_DIR ~/Desktop
+
 
 #
 # Displays
