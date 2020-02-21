@@ -1,18 +1,20 @@
-css2stylus
+yarn
 eslint
-jison
-json
 nodemon
-picture-tube
 replace
 static-server
-svgo
-xpath-stream
-coffee-ast-walk
-coffeescript
+
+# css2stylus
+# jison
+# json
+# picture-tube
+# svgo
+# xpath-stream
+# coffee-ast-walk
+# coffeescript
+# dependency-tree
+# esformatter
+# yo
+
 create-npm-pkg
-dependency-tree
-esformatter
 json-diff
-yo
-yarn
