@@ -11,7 +11,7 @@ notion
 visual-studio-code
 alfred
 iterm2
-hyper # electron based terminal
+# hyper # electron based terminal
 spectacle # window manager
 sublime-text
 sketch
@@ -54,5 +54,5 @@ docker
 # now
 
 # Arduino
-homebrew/cask-unofficial/wch-ch34x-usb-serial-driver
-# arduino
+# homebrew/cask-unofficial/wch-ch34x-usb-serial-driver # not available now
+# arduino # use vs code instead
