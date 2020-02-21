@@ -31,6 +31,8 @@ ngrok
 sublime-merge
 # wireshark
 # unshaky # fix bad macOS keyboard
+bartender # спратать лишние иконке в status bar
+betterzip # lookup for archive-files
 
 #
 # Misc
