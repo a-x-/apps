@@ -8,27 +8,45 @@ Screenshots: https://ilyabirman.ru/meanwhile/2008/11/09/2/
 <details><summary>1. Bunch of automatic settings (via macOS's defaults utility)</summary>
 
 ```sh
+
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+
+# Ask for the administrator password upfront
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until `.macos` has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 # Set directory for screenshots
 SCREENS_DIR='~/Library/Mobile Documents/com~apple~Preview/Documents/Screenshots';
 defaults write com.apple.screencapture location $SCREENS_DIR
 killall SystemUIServer
 ln -s $SCREENS_DIR ~/Desktop
 
+#
+# Displays
+
 # Enable subpixel font rendering on non-Apple LCDs
+# Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
-# Finder: show all filename extensions
+
+#
+# Finder
+
+# show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder: show status bar
+# show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
 
-# Finder: show path bar
+# show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
 # Show the ~/Library folder
 chflags nohidden ~/Library
-
 
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
@@ -46,8 +64,11 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 # the Dock to launch apps.
 defaults write com.apple.dock persistent-apps -array Calendar.app
 
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
 # Add iOS Simulator to Launchpad
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
+ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app" "/Applications/iOS Simulator.app"
 
 
 # Hot corners
@@ -64,10 +85,49 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulat
 # 12: Notification Center
 
 # Bottom Right screen corner → Put to sleep
-defaults write com.apple.dock wvous-br-corner -int 10
-defaults write com.apple.dock wvous-br-modifier -int 0
+# use Ctrl Cmd Q instead (lock screen)
+# defaults write com.apple.dock wvous-br-corner -int 10
+# defaults write com.apple.dock wvous-br-modifier -int 0
 
-#Safari
+## Enable tap to click (for this user and for the login screen)
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+#defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+#defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+
+#
+# Keyboard
+
+# Disable automatic capitalization as it’s annoying when typing code
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Disable smart dashes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Disable automatic period substitution as it’s annoying when typing code
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
+# Disable smart quotes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Set a blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -float 0.000000000001
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# Enable full keyboard access for all controls
+# (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Automatically illuminate built-in MacBook keyboard in low light
+defaults write com.apple.BezelServices kDim -bool true
+# Turn off keyboard illumination when computer is not used for 5 minutes
+defaults write com.apple.BezelServices kDimTime -int 300
+
+#
+# Safari
 
 # Privacy: don’t send search queries to Apple
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
@@ -91,9 +151,15 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
+# Enable the Develop menu and the Web Inspector in Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 
-#Photos.app
+
+#
+# Photos.app
 
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
@@ -122,28 +188,12 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 1. Force iCloud drive download shared apps' preferences
 1. Keyboard
     - language layout: en+ru [{screen}](https://yadi.sk/i/zx1JRutv3S5Gmp)
-    - Disable smart quotes&dashes as they’re annoying when typing code  [{screen}](https://yadi.sk/i/UAWynEU_3S5GtJ)
-        ```sh
-        defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
-        defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
-        ```
-    - Disable auto-correct
-        ```sh
-        defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
-        ```
-    - Set a blazingly fast keyboard repeat rate [{screen}](https://yadi.sk/i/UZuseCDe3S5Gu3)
-        ```sh
-        defaults write NSGlobalDomain KeyRepeat -int 1
-        defaults write NSGlobalDomain InitialKeyRepeat -int 10
-        ```
+    - {auto} Disable smart quotes&dashes as they’re annoying when typing code; Disable auto-correct; Set a blazingly fast keyboard repeat rate
     - Hotkeys: [{screen}]((https://yadi.sk/i/AcdJEyzNj36xN))
         - <kbd>⌥ Space</kbd>: Alfred (better spotlight)
         - <kbd>⌘ Space</kbd>: Keyboard layout
         - <kbd>^ Space</kbd>: IDE Completion
-    - Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs) [{screen}](https://yadi.sk/i/qePZ1XxD3S5Guf)
-        ```sh
-        defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-        ```
+    - {auto} Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs) [{screen}](https://yadi.sk/i/qePZ1XxD3S5Guf)
     - ~~(optional) поменял действие fn на противоположное [{инструкция}](http://bit.ly/1NkgP1q)~~
     - [Disable](http://bit.ly/1JZy7Ph) `^↑` `^↓`, чтобы не было конфликта с sublime
     - Setup Control Stripe (TouchBar)
@@ -153,23 +203,12 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - Setup Characters map (jfyi: <kbd>^⌘ Space</kbd>) [{screen}](https://yadi.sk/i/d5eq5p5Y3YgeSV)
         - add favorite symbols
         - add symbol lists: Technical
-    - Backlight
-        ```sh
-        # Automatically illuminate built-in MacBook keyboard in low light
-        defaults write com.apple.BezelServices kDim -bool true
-        # Turn off keyboard illumination when computer is not used for 5 minutes
-        defaults write com.apple.BezelServices kDimTime -int 300
-        ```
+    - Backlight: Automatically illuminate built-in MacBook keyboard in low light; Setup turn-off delay
 1. Displays
     - more space, small pixels [{screen}](https://yadi.sk/i/bNpoXBxt3S5Gkq)
     - (optional) Setup antialiasing (General -> [ ] Use LCD Font smoothing) [Read more (ru)](http://macdaily.me/howto/font-smoothing-in-mac-os-x/)
 1. Trackpad
-    - Enable tap to click (for this user and for the login screen). [{screen}](https://yadi.sk/i/q3N1rnpm3S5Gnm)
-        ```sh
-        defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-        defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-        defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-        ```
+    - ~~Enable tap to click (for this user and for the login screen)~~. [{screen}](https://yadi.sk/i/q3N1rnpm3S5Gnm)
     - enable app expose
     - screensaver hot corner right-bottom) (easy lock the laptop) [{screen}](https://yadi.sk/i/UcSwdANP3YggDC)
     - **keep** macOS default scroll direction
@@ -223,11 +262,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
         - [`alt+left/right`](https://apple.stackexchange.com/a/218639)
         - triggers: on build
         - etc.
-    - Hyper: restore sync
-      ```sh
-      ln -s ~/Documents/Preferences/HyperTerm/.hyper.js ~
-      ln -s ~/Documents/Preferences/HyperTerm/.hyper_plugins ~
-      ```
+    - ~~Hyper: restore sync~~
 1. Chrome, Safari
     - import bookmarks
 1. Mail.app
