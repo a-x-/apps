@@ -8,7 +8,7 @@ output+="$(cat ABOUT.md)"
 
 output+="\n\n$(cat <<DOC
 ## Install all
-[./install-all.sh](./install-all.sh)
+https://github.com/a-x-/.files/blob/master/installer.sh
 DOC)"
 
 lists="ls | grep 'list$' | grep -v src"
