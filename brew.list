@@ -32,7 +32,7 @@ borg # search the shell snippets
 
 tmux
 tree
-vim
+# vim
 macvim
 wget
 gnu-getopt
