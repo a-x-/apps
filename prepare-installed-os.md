@@ -112,8 +112,11 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -float 0.000000000001
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+# defaults write NSGlobalDomain KeyRepeat -float 0.000000000001 — does not work
+# defaults write NSGlobalDomain InitialKeyRepeat -int 10 — does not work
+
+# Disable the Character Accent Menu and Enable Key Repeat
+defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
