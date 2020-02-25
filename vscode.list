@@ -12,6 +12,8 @@ EditorConfig.EditorConfig
 eamodio.gitlens # blames, etc.
 KnisterPeter.vscode-github # open file on github, etc.
 msjsdiag.debugger-for-chrome
+# donjayamanne.githistory
+# vscodevim.vim
 
 # Front, Js, Node
 WallabyJs.quokka-vscode # awesome https://quokkajs.com
@@ -25,40 +27,28 @@ joelday.docthis # jsdoc generator
 PeterJausovec.vscode-docker
 
 # Languages
-Vans.haskero
-hoovercj.vscode-ghc-mod
-justusadam.language-haskell
-jcanero.hoogle-vscode
-rebornix.Ruby
-lkytal.coffeelinter
-slb235.vscode-coffeelint
-misogi.ruby-rubocop
-robinbentley.sass-indented
-yorkxin.coffeescript-support
+#Vans.haskero
+#hoovercj.vscode-ghc-mod
+#justusadam.language-haskell
+#jcanero.hoogle-vscode
 
 # Helpers
 bgse.relative-path-and-line     # files:copy path and line
 letrieu.expand-region           # AST Aware selection
-wmaurer.vscode-jumpy            # like vim easyjump
 nidu.copy-json-path             # {"a": {"b": "((CURSOR HERE))"}} --copy--> a.b
 
 # Fun
 hoovercj.vscode-power-mode
 
 # Themes
-perragnaredin.light-plus-tweaked # day mode
-jprestidge.theme-material-theme
-saviorisdead.Theme-GitHubCleanWhite
-xaver.theme-ysgrifennwr
-thenikso.github-plus-theme
 
 #
 axetroy.vscode-npm-import-package-version
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
-eg2.vscode-npm-script
-formulahendry.code-runner
-henry-li.vscode-import-formatter
+#eg2.vscode-npm-script
+#formulahendry.code-runner
+#henry-li.vscode-import-formatter
 ionceflorin.copy-current-file-path
 jack89ita.open-file-from-path
 jakob101.RelativePath
@@ -66,7 +56,3 @@ leizongmin.node-module-intellisense
 wangtao0101.vscode-js-import
 wix.vscode-import-cost
 yzhang.markdown-all-in-one
-
-# rejected
-# donjayamanne.githistory
-# vscodevim.vim
