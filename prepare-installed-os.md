@@ -262,6 +262,7 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - iTerm: restore sync [{screen}](https://yadi.sk/i/o1XFs29X3YiiU7)
         - [`alt+left/right`](https://apple.stackexchange.com/a/218639)
         - triggers: on build
+        - Install Shell Integration
         - etc.
     - ~~Hyper: restore sync~~
 1. Chrome, Safari
