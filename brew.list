@@ -41,7 +41,7 @@ vim
 wget
 # gnu-getopt
 gnu-sed
-ssh-copy-id
+# ssh-copy-id
 htop-osx
 nmap
 # git
@@ -65,7 +65,7 @@ diff-so-fancy
 # heroku-toolbelt
 # imagemagick
 # lynx
-openssl
+# openssl
 # pcre
 # pkg-config
 # tcpflow
