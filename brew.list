@@ -27,9 +27,6 @@ jq      # json query cli
 # m-cli # macOS utils
 tldr # short mans
 
-# New Special Utils
-
-borg # search the shell snippets
 
 #
 # Standart Utils
