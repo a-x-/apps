@@ -1,4 +1,4 @@
-# Setup New macOS Sierra+ (MBP+TouchBar).<br/>Frontend Developer Guide
+# Setup New macOS Monterey+ (MBP on M1).<br/>Frontend Developer Guide
 
 ## Setup System
 
@@ -241,7 +241,12 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
     https://brew.sh
 
-    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    ```sh
+    git config --global core.compression 0
+    git config --global http.postBuffer 1048576000
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    ```
+    [trick's source](https://github.com/Homebrew/discussions/discussions/668#discussioncomment-1693776)
 
     - подключил расширенный каталог (с бетами и пр.) для brew cask: `brew tap caskroom/versions`
 1. Batch install all of brew, brew cask, npm, app store apps and pkgs ([a-x-/apps automation](https://github.com/a-x-/apps))
