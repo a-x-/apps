@@ -3,78 +3,84 @@
 # ghc
 # cabal-install
 # haskell-stack
-# python3
+python3
 # nodejs -- should be installed via tj/n or asdf
+# ruby
 
+#
 # Special Utils
 
 # the_silver_searcher # ag is a faster grep alternative
 ripgrep # rg is a faster ag/grep alternative
-thefuck # fuck: fix last command
+# thefuck # fuck: fix last command
 fasd    # fast jumpers: z, v
-asdf    # npm,ruby,,, universal version manager
+# asdf    # npm,ruby,,, universal version manager
+nvm     # npm version manager
 httpie  # human friendly wget/curl
-hub     # git wrapper for github
-legit # extended git
+# hub     # git wrapper for github
+# legit # extended git
 svgo    # svg optimiser
-brotli  # compression
-webp    # new pic format
-#tig     # git interactive cli
+# brotli  # compression
+# webp    # new pic format
+# tig     # git interactive cli
 jq      # json query cli
-m-cli # macOS utils
+# m-cli # macOS utils
 tldr # short mans
 
 # New Special Utils
 
 borg # search the shell snippets
 
+#
 # Standart Utils
 
 tmux
 tree
-# vim
-macvim
+vim
+# macvim
 wget
-gnu-getopt
+# gnu-getopt
 gnu-sed
 ssh-copy-id
 htop-osx
 nmap
-git
+# git
 rsync
 gpg
 
+#
 # Shell
 
-zsh
-zsh-completions
-zsh-syntax-highlighting
-bash-completion
+# zsh
+# zsh-completions
+# zsh-syntax-highlighting
+# bash-completion
 
+#
 # Misc
 
 colordiff
 diff-so-fancy
-#dnsmasq
-#heroku-toolbelt
-#imagemagick
-lynx
+# dnsmasq
+# heroku-toolbelt
+# imagemagick
+# lynx
 openssl
-pcre
-#pkg-config
-#tcpflow
-#tidy-html5
-automake
-cmake
+# pcre
+# pkg-config
+# tcpflow
+# tidy-html5
+# automake
+# cmake
 
-# Deploy, Infra, Rocketbank
+#
+# Deploy, Infra
 
-#ansible -- must be installed via system pip
+# ansible -- must be installed via system pip
 kubernetes-cli
 kubectl
-#consul
-#postgresql
+# consul
+# postgresql
 docker
-#rabbitmq
-#redis
-#ruby
+# rabbitmq
+# redis
