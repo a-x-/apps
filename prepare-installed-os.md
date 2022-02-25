@@ -255,9 +255,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - Generate new GPG and SSH keys, update everywhere
         - [Generate GPG manual](https://help.github.com/articles/generating-a-new-gpg-key/)
     - VS Code
-        - ~~Sync Settings: `mkdir -p ~/Library/Application\ Support/Code/ && ln -s ~/Documents/Preferences/VSCode/ ~/Library/Application\ Support/Code/User`~~
-        - Setup the git repo [a-x-/vscode-configs] in `"$HOME/Library/Application Support/Code/User/"`
-        - *plugins should be installed earlier*
+        - plugins: see vscode.list
+        - Cmd-Shift-P: `Shell Command: Install 'code' command in PATH`
 
 1. iCloud Drive based settings sync (`Documents/Preferences`)
     - Alfred
