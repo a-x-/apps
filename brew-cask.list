@@ -51,8 +51,8 @@ homebrew/cask-fonts/font-fira-code # font with ligatures
 #  screenhero
 
 #
-# Deploy, Infra, Rocketbank
-docker
+# Deploy, Infra, Job
+homebrew/cask/docker
 # postgres
 # now
 
