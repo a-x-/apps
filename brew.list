@@ -74,8 +74,8 @@ diff-so-fancy
 # Deploy, Infra
 
 # ansible -- must be installed via system pip
-kubernetes-cli
-kubectl
+# kubernetes-cli
+# kubectl
 # consul
 # postgresql
 docker
