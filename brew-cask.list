@@ -9,11 +9,11 @@ google-chrome
 # Main
 raycast
 # alfred
+# spectacle # window manager; replaced by raycast!
 notion
 visual-studio-code
 iterm2
 # hyper # electron based terminal
-spectacle # window manager
 sublime-text
 # sketch
 figma
