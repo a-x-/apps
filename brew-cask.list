@@ -7,9 +7,10 @@ google-chrome
 
 #
 # Main
+raycast
+# alfred
 notion
 visual-studio-code
-alfred
 iterm2
 # hyper # electron based terminal
 spectacle # window manager
