@@ -234,6 +234,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
     - FileValult
 1. Remove everything (except the Calendar.app) from the Dock bar
 
+1. [Release 5000 port](https://nono.ma/port-5000-used-by-control-center-in-macos-ventura-controlce) (Disable AirPlay Receiver)
+
 ## Install & Setup Applications
 
 1. Command Line Tools `xcode-select --install`
