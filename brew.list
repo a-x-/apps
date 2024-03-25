@@ -18,6 +18,8 @@ fasd    # fast jumpers: z, v
 nvm     # npm version manager
 httpie  # human friendly wget/curl
 # hub     # git wrapper for github
+gh      # modern official git wrapper for github
+glab    # modern official git wrapper for gitlab
 # legit # extended git
 svgo    # svg optimiser
 # brotli  # compression
@@ -57,7 +59,6 @@ gpg
 #
 # Misc
 
-gh # github cli
 colordiff
 diff-so-fancy
 # dnsmasq
