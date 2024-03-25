@@ -34,6 +34,7 @@ tldr # short mans
 tmux
 tree
 vim
+zplug
 # macvim
 wget
 # gnu-getopt
