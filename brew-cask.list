@@ -12,12 +12,12 @@ raycast
 # spectacle # window manager; replaced by raycast!
 notion
 visual-studio-code
-iterm2
-# hyper # electron based terminal
-sublime-text
+# iterm2
+hyper # electron based terminal
+# sublime-text
 # sketch
 figma
-miro
+# miro
 zoom
 
 #
@@ -32,17 +32,20 @@ imageoptim
 ngrok
 # studio-3t # monbodb client (robomongo declined)
 # sequel-pro # sql db client
-sublime-merge
+# sublime-merge
 # wireshark
 # unshaky # fix bad macOS keyboard
-bartender # спратать лишние иконке в status bar
+# bartender # спратать лишние иконке в status bar
+dozer # спратать лишние иконке в status bar
 betterzip # lookup for archive-files
 
 #
 # Misc
 # vlc
 cornercal # better clock with calendar in status bar
-homebrew/cask-fonts/font-fira-code # font with ligatures
+# homebrew/cask-fonts/
+font-fira-code # font with ligatures
+font-sf-pro # apple's default font
 
 #
 # Ignored
