@@ -3,7 +3,7 @@
 # ghc
 # cabal-install
 # haskell-stack
-python3
+# python3
 # nodejs -- should be installed via tj/n or asdf
 # ruby
 
@@ -13,7 +13,7 @@ python3
 # the_silver_searcher # ag is a faster grep alternative
 ripgrep # rg is a faster ag/grep alternative
 # thefuck # fuck: fix last command
-fasd    # fast jumpers: z, v
+# fasd    # fast jumpers: z, v
 # asdf    # npm,ruby,,, universal version manager
 nvm     # npm version manager
 httpie  # human friendly wget/curl
@@ -78,9 +78,10 @@ diff-so-fancy
 
 # ansible -- must be installed via system pip
 # kubernetes-cli
-# kubectl
+kubectl
 # consul
 # postgresql
 docker
 # rabbitmq
 # redis
+# mongosh # mongodb
