@@ -76,12 +76,13 @@ diff-so-fancy
 #
 # Deploy, Infra
 
+awscli
+mongosh # MongoDB
 # ansible -- must be installed via system pip
 # kubernetes-cli
-kubectl
+# kubectl
 # consul
 # postgresql
-docker
+# docker # cask instead
 # rabbitmq
 # redis
-# mongosh # mongodb
