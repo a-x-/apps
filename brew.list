@@ -28,6 +28,7 @@ svgo    # svg optimiser
 jq      # json query cli
 # m-cli # macOS utils
 tldr # short mans
+ffmpeg
 
 
 #
