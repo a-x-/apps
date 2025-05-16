@@ -56,7 +56,8 @@ font-sf-pro # apple's default font
 
 #
 # Deploy, Infra, Job
-homebrew/cask/docker
+docker
+cyberduck
 # postgres
 # now
 
