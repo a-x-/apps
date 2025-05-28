@@ -19,8 +19,8 @@ nvm     # npm version manager
 httpie  # human friendly wget/curl
 # hub     # git wrapper for github
 gh      # modern official git wrapper for github
-glab    # modern official git wrapper for gitlab
-# legit # extended git
+# glab    # modern official git wrapper for gitlab
+legit # simplified git (sw (co w/ stash), pub, undo,,,); open github.com/frostming/legit; run legit --install (for git aliases)
 svgo    # svg optimiser
 # brotli  # compression
 # webp    # new pic format
